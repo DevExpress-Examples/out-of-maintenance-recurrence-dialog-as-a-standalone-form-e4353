@@ -1,0 +1,21 @@
+﻿@model DevExpress.XtraScheduler.RecurrenceInfo
+
+@using (Html.BeginForm("RecurrenceFormInfo", "Home")) {
+    @Html.DevExpress().Label(
+        settings => { 
+            settings.Text = "Set recurrence information:"; 
+    }).GetHtml()
+    
+    @Html.DevExpress().AppointmentRecurrenceForm(
+        settings => {
+            settings.Name = "RecurrenceControl";
+            settings.IsRecurring = Model != null;
+    }).Bind(Model).GetHtml()
+
+    @Html.DevExpress().Button(
+        settings => {
+            settings.Name = "Apply";
+            settings.UseSubmitBehavior = true;
+    }).GetHtml()
+}
+
