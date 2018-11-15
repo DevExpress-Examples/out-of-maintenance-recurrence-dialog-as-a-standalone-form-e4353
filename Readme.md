@@ -1,3 +1,10 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [HomeController.cs](./CS/AppointmentRecurrenceFormExample/Controllers/HomeController.cs) (VB: [HomeController.vb](./VB/AppointmentRecurrenceFormExample/Controllers/HomeController.vb))
+* [Index.cshtml](./CS/AppointmentRecurrenceFormExample/Views/Home/Index.cshtml)
+* [RecurrenceFormInfo.cshtml](./CS/AppointmentRecurrenceFormExample/Views/Home/RecurrenceFormInfo.cshtml)
+<!-- default file list end -->
 # Recurrence Dialog as a Standalone Form
 
 
